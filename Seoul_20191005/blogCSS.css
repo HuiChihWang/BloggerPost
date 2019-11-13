@@ -66,7 +66,7 @@
 }
 
 .linkTopic span {
-    color: red;
+    color: blueviolet;
     text-decoration: underline;
     font-weight: bold;
     font-family: 'Noto Sans TC', sans-serif;
@@ -94,7 +94,7 @@
 .linkList p {
     font-size: 14px;
     font-family: 'Noto Sans TC', sans-serif;
-    color: blueviolet;
+    color: rgb(224, 135, 150);
     line-height: 3px;
 }
 
@@ -102,7 +102,7 @@
     text-decoration: none;
     font-size: 14px;
     font-family: 'Noto Sans TC', sans-serif;
-    color: blueviolet;
+    color: rgb(224, 135, 150);
     line-height: 3px;
 }
 
