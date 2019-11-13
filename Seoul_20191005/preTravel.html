@@ -34,13 +34,59 @@
                 text-decoration: underline
         }
 
+        .dayTopic::before {
+                content: "";
+                display: inline-block;
+                height: 20px;
+                width: 20px;
+                background-image: url("//s.pixfs.net/f.pixnet.net/images/emotions/043.gif");
+                margin-right: 7px;
+        }
+
         .headImage {
                 max-width: 100%;
                 height: auto;
         }
 
-        .linkStyle {
+        .scheduleList p {
+                font-family: 'Noto Sans TC', sans-serif;
+                color: rgb(192, 103, 9);
                 font-size: 16px;
+        }
+
+        .scheduleList p::before {
+                content: "";
+                display: inline-block;
+                height: 20px;
+                width: 20px;
+                background-image: url("//s.pixfs.net/f.pixnet.net/images/emotions/054.gif");
+                margin-right: 7px;
+        }
+
+        .linkList p::before {
+                content: "";
+                display: inline-block;
+                height: 20px;
+                width: 20px;
+                background-image: url("//s.pixfs.net/f.pixnet.net/images/emotions/034.gif");
+                margin-right: 7px;
+        }
+        .linkList p {
+                font-size: 16px;
+                font-family: 'Noto Sans TC', sans-serif;
+                color: blueviolet;
+        }
+
+        .linkList p a{
+                text-decoration: none;
+                font-size: 16px;
+                font-family: 'Noto Sans TC', sans-serif;
+                color: blueviolet;
+        }
+
+        .linkList p a:hover {
+                text-decoration: underline;
+                color: rgb(228, 47, 15);
         }
 
         .article {
@@ -65,127 +111,83 @@
 
 <hr />
 
-<img class="headImage" src="https://lh5.googleusercontent.com/h24E6eBBkRXWON_A894dAcdIdl8Wdf5YeEf3qDZ5hUq5E5vK2oFk2z70nphvuj5esY3q-ReMOqZW_Pj1oGKS=w1919-h937-rw"></img>
+<img class="headImage"
+        src="https://lh5.googleusercontent.com/h24E6eBBkRXWON_A894dAcdIdl8Wdf5YeEf3qDZ5hUq5E5vK2oFk2z70nphvuj5esY3q-ReMOqZW_Pj1oGKS=w1919-h937-rw"></img>
 
 <div class=schedule>
         <p class="topic"><span class="backColor"><span class="textContent">首爾六天五夜完美行程規劃</span></span></p>
 
         <div class="day1">
-                <p class="dayTopic"><img alt="" height="20" src="//s.pixfs.net/f.pixnet.net/images/emotions/043.gif"
-                                title="" width="20" /><span>DAY1</span></p>
-
-                <p class="topic"><img alt="" height="20" src="//s.pixfs.net/f.pixnet.net/images/emotions/054.gif"
-                                title="" width="20" /><span> 仁川機場 </span></p>
-
-                <p class="topic"><img alt="" height="20" src="//s.pixfs.net/f.pixnet.net/images/emotions/054.gif"
-                                title="" width="20" /><span> 弘大 Airbnb住宿 </span></p>
-
-                <p class="topic"><img alt="" height="20" src="//s.pixfs.net/f.pixnet.net/images/emotions/054.gif"
-                                title="" width="20" /><span> 胖胖豬烤肉 </span></p>
-
-                <p class="topic"><img alt="" height="20" src="//s.pixfs.net/f.pixnet.net/images/emotions/054.gif"
-                                title="" width="20" /><span> 弘大瘋狂購物 </span></p>
+                <p class="dayTopic">DAY1</p>
+                <div class="scheduleList">
+                        <p>仁川機場</p>
+                        <p>弘大 Airbnb住宿</p>
+                        <p>胖胖豬烤肉</p>
+                        <p>弘大瘋狂購物</p>
+                </div>
         </div>
         <div>
-                <p class="dayTopic"><img alt="" height="20" src="//s.pixfs.net/f.pixnet.net/images/emotions/043.gif"
-                                title="" width="20" /><span>DAY2</span></p>
+                <p class="dayTopic">DAY2</p>
 
-                <p class="topic"><img alt="" height="20" src="//s.pixfs.net/f.pixnet.net/images/emotions/054.gif"
-                                title="" width="20" /><span> 景福宮韓服體驗 </span></p>
-
-                <p class="topic"><img alt="" height="20" src="//s.pixfs.net/f.pixnet.net/images/emotions/054.gif"
-                                title="" width="20" /><span> 三清洞摩西年糕郭 </span></p>
-
-                <p class="topic"><img alt="" height="20" src="//s.pixfs.net/f.pixnet.net/images/emotions/054.gif"
-                                title="" width="20" /><span> 北村韓屋 </span></p>
-
-                <p class="topic"><img alt="" height="20" src="//s.pixfs.net/f.pixnet.net/images/emotions/054.gif"
-                                title="" width="20" /><span> Onion Cafe </span></p>
-
-                <p class="topic"><img alt="" height="20" src="//s.pixfs.net/f.pixnet.net/images/emotions/054.gif"
-                                title="" width="20" /><span> 明洞逛街 </span></p>
-
-                <p class="topic"><img alt="" height="20" src="//s.pixfs.net/f.pixnet.net/images/emotions/054.gif"
-                                title="" width="20" /><span> 名洞元堂脊骨土豆湯 </span></p>
+                <div class="scheduleList">
+                        <p>景福宮韓服體驗</p>
+                        <p>三清洞摩西年糕郭</p>
+                        <p>北村韓屋</p>
+                        <p>Onion Cafe</p>
+                        <p>明洞逛街</p>
+                        <p>明洞元堂脊骨土豆湯</p>
+                </div>
         </div>
 
         <div class="day3">
-                <p class="dayTopic"><img alt="" height="20" src="//s.pixfs.net/f.pixnet.net/images/emotions/043.gif"
-                                title="" width="20" /><span>DAY3</span></p>
+                <p class="dayTopic">DAY3</p>
 
-                <p class="topic"><img alt="" height="20" src="//s.pixfs.net/f.pixnet.net/images/emotions/054.gif"
-                                title="" width="20" /><span> 江村鐵道自行車 </span></p>
+                <div class="scheduleList">
+                        <p>江村鐵道自行車</p>
+                        <p>南怡島</p>
+                        <p>北村韓屋</p>
+                        <p>小法國村</p>
+                        <p>BHC弘大店</p>
+                </div>
 
-                <p class="topic"><img alt="" height="20" src="//s.pixfs.net/f.pixnet.net/images/emotions/054.gif"
-                                title="" width="20" /><span> 南怡島 </span></p>
-
-                <p class="topic"><img alt="" height="20" src="//s.pixfs.net/f.pixnet.net/images/emotions/054.gif"
-                                title="" width="20" /><span> 小法國村 </span></p>
-
-                <p class="topic"><img alt="" height="20" src="//s.pixfs.net/f.pixnet.net/images/emotions/054.gif"
-                                title="" width="20" /><span> BHC弘大店 </span></p>
         </div>
 
 
         <div class="day4">
-                <p class="dayTopic"><img alt="" height="20" src="//s.pixfs.net/f.pixnet.net/images/emotions/043.gif"
-                                title="" width="20" /><span>DAY4</span></p>
+                <p class="dayTopic">DAY4</p>
 
-                <p class="topic"><img alt="" height="20" src="//s.pixfs.net/f.pixnet.net/images/emotions/054.gif"
-                                title="" width="20" /><span> 梨花女子大學 </span></p>
-
-                <p class="topic"><img alt="" height="20" src="//s.pixfs.net/f.pixnet.net/images/emotions/054.gif"
-                                title="" width="20" /><span> 孔陵一隻雞黎大店 </span></p>
-
-                <p class="topic"><img alt="" height="20" src="//s.pixfs.net/f.pixnet.net/images/emotions/054.gif"
-                                title="" width="20" /><span> 建大貨櫃屋 </span></p>
-
-                <p class="topic"><img alt="" height="20" src="//s.pixfs.net/f.pixnet.net/images/emotions/054.gif"
-                                title="" width="20" /><span> 星空圖書館 </span></p>
-                <p class="topic"><img alt="" height="20" src="//s.pixfs.net/f.pixnet.net/images/emotions/054.gif"
-                                title="" width="20" /><span> 廣藏市場 </span></p>
-
-                <p class="topic"><img alt="" height="20" src="//s.pixfs.net/f.pixnet.net/images/emotions/054.gif"
-                                title="" width="20" /><span> 首爾樂天超市 </span></p>
-
-                <p class="topic"><img alt="" height="20" src="//s.pixfs.net/f.pixnet.net/images/emotions/054.gif"
-                                title="" width="20" /><span> 僑村炸機外送體驗 </span></p>
+                <div class="scheduleList">
+                        <p>梨花女子大學</p>
+                        <p>孔陵一隻雞黎大店</p>
+                        <p>建大貨櫃屋</p>
+                        <p>星空圖書館</p>
+                        <p>廣藏市場</p>
+                        <p>首爾樂天超市</p>
+                        <p>僑村炸機外送體驗</p>
+                </div>
         </div>
 
         <div class="day5">
-                <p class="dayTopic"><img alt="" height="20" src="//s.pixfs.net/f.pixnet.net/images/emotions/043.gif"
-                                title="" width="20" /><span>DAY5</span></p>
-
-                <p class="topic"><img alt="" height="20" src="//s.pixfs.net/f.pixnet.net/images/emotions/054.gif"
-                                title="" width="20" /><span> 天空公園 </span></p>
-
-                <p class="topic"><img alt="" height="20" src="//s.pixfs.net/f.pixnet.net/images/emotions/054.gif"
-                                title="" width="20" /><span> 大青廊台傳統韓食 </span></p>
-
-                <p class="topic"><img alt="" height="20" src="//s.pixfs.net/f.pixnet.net/images/emotions/054.gif"
-                                title="" width="20" /><span> 弘大繼續買繼續逛 </span></p>
-
-                <p class="topic"><img alt="" height="20" src="//s.pixfs.net/f.pixnet.net/images/emotions/054.gif"
-                                title="" width="20" /><span> 高昌福的善良排骨 </span></p>
-
-                <p class="topic"><img alt="" height="20" src="//s.pixfs.net/f.pixnet.net/images/emotions/054.gif"
-                                title="" width="20" /><span> 弘大夜店體驗 Aura Night Club </span></p>
+                <p class="dayTopic">DAY5</p>
+                <div class="scheduleList">
+                        <p>天空公園</p>
+                        <p>大青廊台傳統韓食</p>
+                        <p>弘大繼續買繼續逛</p>
+                        <p>星空圖書館</p>
+                        <p>高昌福的善良排骨</p>
+                        <p>弘大夜店體驗 Aura Night Club</p>
+                </div>
         </div>
 
-
         <div class="day6">
-                <p class="dayTopic"><img alt="" height="20" src="//s.pixfs.net/f.pixnet.net/images/emotions/043.gif"
-                                title="" width="20" /><span>DAY6</span></p>
-                <p class="topic"><img alt="" height="20" src="//s.pixfs.net/f.pixnet.net/images/emotions/054.gif"
-                                title="" width="20" /><span> 弘大Roan寄放行李 </span></p>
-                <p class="topic"><img alt="" height="20" src="//s.pixfs.net/f.pixnet.net/images/emotions/054.gif"
-                                title="" width="20" /><span> 明洞 Issac Toast </span></p>
-                <p class="topic"><img alt="" height="20" src="//s.pixfs.net/f.pixnet.net/images/emotions/054.gif"
-                                title="" width="20" /><span> 首爾塔 </span></p>
-                <p class="topic"><img alt="" height="20" src="//s.pixfs.net/f.pixnet.net/images/emotions/054.gif"
-                                title="" width="20" /><span> 明洞餃子 </span></p>
-                <p class="topic"><img alt="" height="20" src="//s.pixfs.net/f.pixnet.net/images/emotions/054.gif"
-                                title="" width="20" /><span> 仁川機場 </span></p>
+                <p class="dayTopic">DAY6</p>
+                <div class="scheduleList">
+                        <p>弘大Roan寄放行李</p>
+                        <p>明洞 Issac Toast</p>
+                        <p>首爾塔</p>
+                        <p>明洞餃子</p>
+                        <p>仁川機場</p>
+                </div>
         </div>
         <hr />
 </div>
@@ -211,10 +213,9 @@
                 讓這幾天在韓國的網路費大大的降低，不得不說這真的是德政阿!
         </p>
 
-        <p class="linkStyle"><img alt="" height="20" src="//s.pixfs.net/f.pixnet.net/images/emotions/034.gif" title=""
-                        width="20" />
-                <a href="https://www.kkday.com/zh-tw/product/19834" target="_blank">KKDAY韓國網路卡</a>
-        </p>
+        <div class="linkList">
+                <p><a href="https://www.kkday.com/zh-tw/product/19834" target="_blank">KKDAY韓國網路卡</a></p>
+        </div>
 
         <p class="secondTopic"><span>住宿</span></p>
         <p class="article">
@@ -224,10 +225,9 @@
                 附近剛好有一間好吃的僑村炸機呢~
         </p>
 
-        <p class="linkStyle"><img alt="" height="20" src="//s.pixfs.net/f.pixnet.net/images/emotions/034.gif" title=""
-                        width="20" />
-                <a href="http://www.airbnb.com.tw/rooms/17833583" target="_blank">弘大推薦Airbnb</a>
-        </p>
+        <div class="linkList">
+                <p><a href="http://www.airbnb.com.tw/rooms/17833583" target="_blank">弘大推薦Airbnb</a></p>
+        </div>
 
         <p class="secondTopic"><span>交通</span></p>
         <p class="article">
@@ -237,26 +237,18 @@
                 不然用這種方式是最省錢的~ 一卡在手，公車捷運都可以搭，不過在韓國公車幾乎只有韓文，這裡要注意一下!
         </p>
 
-        <p class="linkStyle"><img alt="" height="20" src="//s.pixfs.net/f.pixnet.net/images/emotions/034.gif" title=""
-                        width="20" />
-                <a href="https://www.kkday.com/zh-tw/product/20241" target="_blank">KKDAY TMoney卡購買</a>
-
-                <p class="linkStyle"><img alt="" height="20" src="//s.pixfs.net/f.pixnet.net/images/emotions/034.gif"
-                                title="" width="20" />
-                        <a href="https://apps.apple.com/tw/app/%E9%9F%A9%E5%B7%A2%E9%9F%A9%E5%9B%BD%E5%9C%B0%E5%9B%BE/id1048867778"
+        <div class="linkList">
+                <p><a href="https://www.kkday.com/zh-tw/product/20241" target="_blank">KKDAY TMoney卡購買</a></p>
+                <p><a href="https://apps.apple.com/tw/app/%E9%9F%A9%E5%B7%A2%E9%9F%A9%E5%9B%BD%E5%9C%B0%E5%9B%BE/id1048867778"
                                 target="_blank">韓巢地圖iOS</a> &amp; <a
                                 href="https://play.google.com/store/apps/details?id=com.konest.map.cn&hl=zh_TW"
-                                target="_blank">韓巢地圖Android</a>
-                </p>
-
-                <p class="linkStyle"><img alt="" height="20" src="//s.pixfs.net/f.pixnet.net/images/emotions/034.gif"
-                                title="" width="20" />
-                        <a href="https://apps.apple.com/tw/app/%E9%9F%A9%E5%B7%A2%E9%9F%A9%E5%9B%BD%E5%9C%B0%E9%93%81%E7%BA%BF%E8%B7%AF%E5%9B%BE/id1241838451"
+                                target="_blank">韓巢地圖Android</a></p>
+                <p><a href="https://apps.apple.com/tw/app/%E9%9F%A9%E5%B7%A2%E9%9F%A9%E5%9B%BD%E5%9C%B0%E9%93%81%E7%BA%BF%E8%B7%AF%E5%9B%BE/id1241838451"
                                 target="_blank">韓巢地鐵iOS</a> &amp; <a
                                 href="https://play.google.com/store/apps/details?id=com.hanchao.subway&hl=zh_TW"
-                                target="_blank">韓巢地鐵Android</a>
-                </p>
-                <hr />
+                                target="_blank">韓巢地鐵Android</a></p>
+        </div>
+        <hr />
 </div>
 
 
@@ -266,10 +258,18 @@
         <p class="secondTopic"><span>換匯</span></p>
         <p class="article">
                 建議先在台灣換一些，大概1000~2000台幣就可以了(大概是20000~35000韓元上下)，其餘的可以到首爾在換匯率更漂亮，
-                這裡推薦的換錢所有弘大的TravelDepot以及明洞的大使館換錢所與大信換錢所，其中又以明洞的匯率最好，
+                這裡推薦的換錢所有弘大的TravelDepot以及明洞的大使館換錢所、大信換錢所及一品香換匯所，其中又以明洞的匯率最好，
                 但住在弘大懶得跑去明洞的話也是可以先在弘大換少量的錢，等到有機會去明洞逛在在換更多就可以了。至於電子支付的部分，
                 目前韓國只有支援samsungpay，applepay 及其他的pay是不支援的喔!
         </p>
+
+        <div class="linkList">
+                <p>明洞: 大使館換匯所</p>
+                <p>明洞: 大信換錢所</p>
+                <p>明洞: 一品香換匯所</p>
+                <p>弘大: Travel Depot</p>
+        </div>
+
 
         <p class="secondTopic"><span>退稅</span></p>
         <p class="article">
@@ -279,7 +279,6 @@
                 機場退稅流程主要分為兩部分，如果退稅金額未滿7萬5，可直接使用機場的自助退稅機退稅，若是超過這個金額，則需要先待著退稅商品給機場海關查驗，
                 所以注意如果是需要海關查驗退稅的，記得先不要拖運行李，不要拖運，不要拖運，很重要說個三次，給海關查驗完後，就可以託運，出境好記得帶著海關給的退稅單，
                 前往退稅櫃台退稅，還是提醒大家務必提前1~2個小時來機場處理退稅的事喔!
-
         </p>
 
 </div>
