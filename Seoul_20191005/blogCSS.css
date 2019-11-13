@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=McLaren|Noto+Sans+TC|Noto+Serif+TC&display=swap');
+
+.firstTopic .backColor {
+    background-color: #FFFF00;
+}
+
+.firstTopic .textContent {
+    color: #0000FF;
+    font-size: 22px;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: bold;
+    color: #0000FF;
+}
+
+.schedule .topic {
+    font-family: 'Noto Sans TC', sans-serif;
+    color: rgb(192, 103, 9);
+    font-size: 16px;
+}
+
+.secondTopic {
+    color: rgb(7, 134, 28);
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 18px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.dayTopic {
+    font-family: mclaren, cursive;
+    font-size: 16px;
+    text-decoration: underline
+}
+
+.dayTopic::before {
+    content: "";
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background-image: url("//s.pixfs.net/f.pixnet.net/images/emotions/043.gif");
+    margin-right: 7px;
+}
+
+.headImage {
+    max-width: 100%;
+    height: auto;
+}
+
+.scheduleList {
+    line-height: 5px;
+}
+
+.scheduleList p {
+    font-family: 'Noto Sans TC', sans-serif;
+    color: rgb(192, 103, 9);
+    font-size: 16px;
+}
+
+.scheduleList p::before {
+    content: "";
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background-image: url("//s.pixfs.net/f.pixnet.net/images/emotions/054.gif");
+    margin-right: 7px;
+}
+
+.linkTopic span {
+    color: red;
+    text-decoration: underline;
+    font-weight: bold;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 16px;
+}
+
+.linkTopic ::before {
+    content: "";
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background-image: url("//s.pixfs.net/f.pixnet.net/images/emotions/032.gif");
+    margin-right: 7px;
+}
+
+.linkList p::before {
+    content: "";
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background-image: url("//s.pixfs.net/f.pixnet.net/images/emotions/034.gif");
+    margin-right: 7px;
+}
+
+.linkList p {
+    font-size: 14px;
+    font-family: 'Noto Sans TC', sans-serif;
+    color: blueviolet;
+    line-height: 3px;
+}
+
+.linkList p a {
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Noto Sans TC', sans-serif;
+    color: blueviolet;
+    line-height: 3px;
+}
+
+.linkList p a:hover {
+    text-decoration: underline;
+    color: rgb(228, 47, 15);
+}
+
+.article {
+    font-family: 'Noto Serif TC', serif;
+    font-size: 14px;
+}
+
+.highLight {
+    font-weight: bolder;
+    background-color: yellow;
+    color: blue;
+    text-decoration: underline;
+    font-size: 14.5px;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.secondHighLght {
+    text-decoration: underline;
+    font-size: 14.5px;
+    font-family: 'Noto Sans TC', sans-serif;
+    color: red;
+    font-weight: bolder;
+    font-size: 14.5px;
+}
