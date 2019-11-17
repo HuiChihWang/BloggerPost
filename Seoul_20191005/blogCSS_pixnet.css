@@ -182,16 +182,15 @@
     font-size: 14px;
 }
 
-.highLight {
+.firstHighLight {
     font-weight: bolder;
     background-color: yellow;
     color: blue;
-    text-decoration: underline;
     font-size: 14.5px;
     font-family: 'Noto Sans TC', sans-serif;
 }
 
-.secondHighLght {
+.secondHighLight {
     text-decoration: underline;
     font-size: 14.5px;
     font-family: 'Noto Sans TC', sans-serif;
