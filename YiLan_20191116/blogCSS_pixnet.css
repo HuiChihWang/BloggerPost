@@ -110,6 +110,7 @@
 .headImage {
     max-width: 100%;
     height: auto;
+    margin-bottom: 30px;
 }
 
 .scheduleList {
@@ -197,4 +198,12 @@
     color: red;
     font-weight: bolder;
     font-size: 14.5px;
+}
+
+.thirdHighLight {
+    font-style: italic;
+    font-size: 14.5px;
+    font-family: 'Noto Sans TC', sans-serif;
+    color: rgba(236, 94, 12, 0.836);
+    font-weight: bolder;
 }
