@@ -140,7 +140,7 @@
     font-size: 16px;
 }
 
-.linkTopic ::before {
+.linkTopic::before {
     content: "";
     display: inline-block;
     height: 20px;
@@ -207,3 +207,85 @@
     color: rgba(236, 94, 12, 0.836);
     font-weight: bolder;
 }
+
+.infoCard .topic {
+    color: red;
+    text-decoration-line: underline;
+    font-weight: bold;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 16px;
+}
+
+.infoCard .topic::before {
+    content: "";
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background-image: url("//s.pixfs.net/f.pixnet.net/images/emotions/032.gif");
+    margin-right: 7px;
+    background-size: 20px 20px;
+}
+
+.infoCard .list p{
+    font-size: 14px;
+    font-family: 'Noto Sans TC', sans-serif;
+    color: rgb(89, 93, 84);
+    line-height: 3px;
+}
+
+.infoCard .list p a{
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Noto Sans TC', sans-serif;
+    color: blueviolet;
+    line-height: 3px;
+}
+
+.infoCard .list p a:hover{
+    text-decoration: underline;
+    color: rgb(228, 47, 15);
+}
+
+.location::before {
+    content: "";
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background-image: url("https://2.bp.blogspot.com/-ET0xNvxr9mo/XdTtEFPCNsI/AAAAAAAAC4M/iAJ3HgXnego2pPzpliwqb8ORi4ca7gfPACLcBGAsYHQ/s320/kisspng-computer-icons-google-maps-locator-map-5ae02a17da9671.0992648315246402798953.png");
+    margin-right: 7px;
+    background-size: 20px 20px;
+}
+
+.phone::before {
+    content: "";
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background-image: url("https://1.bp.blogspot.com/-YLEegCXh5IY/XdTtFIIhhSI/AAAAAAAAC4Y/dcfNfuE87GE6ScSKWekX6c9vnGZk-enxwCLcBGAsYHQ/s320/kisspng-telephone-call-icon-phone-png-clipart-5a753af2148dc1.4703392415176322420842.png");
+    margin-right: 7px;
+    background-size: 20px 20px;
+}
+
+.web::before {
+    content: "";
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background-image: url("//s.pixfs.net/f.pixnet.net/images/emotions/054.gif");
+    margin-right: 7px;
+    background-size: 20px 20px;
+}
+
+.price::before {
+    content: "";
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background-image: url("https://1.bp.blogspot.com/-T2RSVWSDScA/XdTtEnOv5HI/AAAAAAAAC4U/3WTlx2KQJEEWTPa6_Y868D_njMBjD7lPQCLcBGAsYHQ/s320/kisspng-dollar-sign-scalable-vector-graphics-symbol-vector-money-symbol-5a9a2892ccd255.998545541520052370839.png");
+    margin-right: 7px;
+    background-size: 20px 20px;
+}
+
+/* TODO: Personal Card */
+
+
