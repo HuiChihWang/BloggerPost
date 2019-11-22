@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=McLaren|Noto+Sans+TC|Noto+Serif+TC&display=swap');
+
 .firstTopic .backColor {
     background-color: #FFFF00;
 }
@@ -95,7 +95,7 @@
 }
 
 .dayTopic {
-    font-family: 'mclaren', cursive;
+    font-family: mclaren, cursive;
     font-size: 16px;
     text-decoration: underline
 }
@@ -215,9 +215,6 @@
     font-weight: bolder;
 }
 
-.infoCard {
-    margin-top: 50px;
-}
 .infoCard .topic {
     color: red;
     text-decoration-line: underline;
@@ -348,8 +345,8 @@
 .personal .fb::before {
     content: "";
     display: inline-block;
-    height: 35px;
-    width: 35px;
+    height: 33px;
+    width: 33px;
     background-image: url("https://2.bp.blogspot.com/-sQYxii-6KfU/XdTtEE-VL0I/AAAAAAAAC4k/YBc5KRbz4cwUbYC97AvQTSAW5f-FC0a6ACPcBGAYYCw/s1600/5a22b43e909176.0984090415122238065922.png");
     margin-right: 7px;
     background-size: cover;
@@ -380,8 +377,16 @@
 
 .social {
     text-align: center;
+}
+
+.social .fb{
     font-size: 18px;
     font-family: 'Noto Sans TC', sans-serif;
+}
+
+.social .ig {
+    font-size: 20px;
+    font-family: 'Kalam', cursive;
 }
 
 .emoji {
