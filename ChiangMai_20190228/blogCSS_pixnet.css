@@ -334,7 +334,7 @@
     height: 35px;
     width: 35px;
     background-image: url("//s.pixfs.net/f.pixnet.net/images/emotions/fox_12.gif");
-    margin-right: 7px;
+    margin-right: 10px;
     background-size: cover;
     vertical-align: middle;
 }
@@ -345,7 +345,7 @@
     height: 35px;
     width: 35px;
     background-image: url("//s.pixfs.net/f.pixnet.net/images/emotions/fox_12.gif");
-    margin-right: 7px;
+    margin-left: 10px;
     background-size: cover;
     vertical-align: middle;
 }
