@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=McLaren|Noto+Sans+TC|Noto+Serif+TC&display=swap');
+
 .firstTopic .backColor {
     background-color: #FFFF00;
 }
@@ -139,7 +139,6 @@
 
 .linkTopic span {
     color: red;
-    text-decoration: underline;
     font-weight: bold;
     font-family: 'Noto Sans TC', sans-serif;
     font-size: 16px;
@@ -152,36 +151,24 @@
     width: 20px;
     background-image: url("//s.pixfs.net/f.pixnet.net/images/emotions/032.gif");
     margin-right: 7px;
+    background-size: 20px 20px;
     vertical-align: middle;
 }
 
-.linkList p::before {
-    content: "";
-    display: inline-block;
-    height: 20px;
-    width: 20px;
-    background-image: url("//s.pixfs.net/f.pixnet.net/images/emotions/034.gif");
-    margin-right: 7px;
-    vertical-align: middle;
-}
-
-.linkList p {
+.linkList {
     font-size: 14px;
     font-family: 'Noto Sans TC', sans-serif;
     color: blueviolet;
-    line-height: 3px;
 }
 
-.linkList p a {
+.linkList a {
     text-decoration: none;
     font-size: 14px;
     font-family: 'Noto Sans TC', sans-serif;
     color: blueviolet;
-    line-height: 3px;
 }
 
-.linkList p a:hover {
-    text-decoration: underline;
+.linkList a:hover {
     color: rgb(228, 47, 15);
 }
 
@@ -199,7 +186,7 @@
 }
 
 .secondHighLight {
-    text-decoration: underline;
+    text-decoration: none;
     font-size: 14.5px;
     font-family: 'Noto Sans TC', sans-serif;
     color: red;
@@ -213,6 +200,13 @@
     font-family: 'Noto Sans TC', sans-serif;
     color: rgba(236, 94, 12, 0.836);
     font-weight: bolder;
+}
+
+.topicHighLight {
+    font-size: 16px;
+    font-family: 'Noto Sans TC', sans-serif;
+    color: rgb(206, 100, 100);
+    font-weight: bold;
 }
 
 .infoCard .topic {
@@ -287,6 +281,17 @@
     vertical-align: middle;
 }
 
+.linkTag::before {
+    content: "";
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background-image: url("https://1.bp.blogspot.com/-LbQ5Dvvaq0g/Xdn9KrU2OFI/AAAAAAAAC5Y/O7RcPcUJycgwsA9BzkviHCHzYEKmHtOWQCLcBGAsYHQ/s1600/transparent-chain-icon-hyperlink-icon-internet-icon-5d6a3b40a51cc2.6259860915672430726763.png");
+    margin-right: 7px;
+    background-size: 20px 20px;
+    vertical-align: middle;
+}
+
 .price::before {
     content: "";
     display: inline-block;
@@ -326,7 +331,7 @@
     height: 35px;
     width: 35px;
     background-image: url("//s.pixfs.net/f.pixnet.net/images/emotions/fox_12.gif");
-    margin-right: 7px;
+    margin-right: 10px;
     background-size: cover;
     vertical-align: middle;
 }
@@ -337,7 +342,7 @@
     height: 35px;
     width: 35px;
     background-image: url("//s.pixfs.net/f.pixnet.net/images/emotions/fox_12.gif");
-    margin-right: 7px;
+    margin-left: 10px;
     background-size: cover;
     vertical-align: middle;
 }
@@ -345,8 +350,8 @@
 .personal .fb::before {
     content: "";
     display: inline-block;
-    height: 35px;
-    width: 35px;
+    height: 33px;
+    width: 33px;
     background-image: url("https://2.bp.blogspot.com/-sQYxii-6KfU/XdTtEE-VL0I/AAAAAAAAC4k/YBc5KRbz4cwUbYC97AvQTSAW5f-FC0a6ACPcBGAYYCw/s1600/5a22b43e909176.0984090415122238065922.png");
     margin-right: 7px;
     background-size: cover;
@@ -377,8 +382,16 @@
 
 .social {
     text-align: center;
+}
+
+.social .fb{
     font-size: 18px;
     font-family: 'Noto Sans TC', sans-serif;
+}
+
+.social .ig {
+    font-size: 20px;
+    font-family: 'Kalam', cursive;
 }
 
 .emoji {
