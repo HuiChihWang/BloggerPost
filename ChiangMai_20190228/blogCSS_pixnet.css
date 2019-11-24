@@ -159,7 +159,6 @@
     font-size: 14px;
     font-family: 'Noto Sans TC', sans-serif;
     color: blueviolet;
-    line-height: 3px;
 }
 
 .linkList a {
@@ -167,11 +166,9 @@
     font-size: 14px;
     font-family: 'Noto Sans TC', sans-serif;
     color: blueviolet;
-    line-height: 3px;
 }
 
 .linkList a:hover {
-    /* text-decoration: underline; */
     color: rgb(228, 47, 15);
 }
 
