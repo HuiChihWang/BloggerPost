@@ -139,7 +139,6 @@
 
 .linkTopic span {
     color: red;
-    text-decoration: underline;
     font-weight: bold;
     font-family: 'Noto Sans TC', sans-serif;
     font-size: 16px;
@@ -152,27 +151,18 @@
     width: 20px;
     background-image: url("//s.pixfs.net/f.pixnet.net/images/emotions/032.gif");
     margin-right: 7px;
+    background-size: 20px 20px;
     vertical-align: middle;
 }
 
-.linkList p::before {
-    content: "";
-    display: inline-block;
-    height: 20px;
-    width: 20px;
-    background-image: url("//s.pixfs.net/f.pixnet.net/images/emotions/034.gif");
-    margin-right: 7px;
-    vertical-align: middle;
-}
-
-.linkList p {
+.linkList {
     font-size: 14px;
     font-family: 'Noto Sans TC', sans-serif;
     color: blueviolet;
     line-height: 3px;
 }
 
-.linkList p a {
+.linkList a {
     text-decoration: none;
     font-size: 14px;
     font-family: 'Noto Sans TC', sans-serif;
@@ -180,8 +170,8 @@
     line-height: 3px;
 }
 
-.linkList p a:hover {
-    text-decoration: underline;
+.linkList a:hover {
+    /* text-decoration: underline; */
     color: rgb(228, 47, 15);
 }
 
@@ -199,7 +189,7 @@
 }
 
 .secondHighLight {
-    text-decoration: underline;
+    text-decoration: none;
     font-size: 14.5px;
     font-family: 'Noto Sans TC', sans-serif;
     color: red;
@@ -213,6 +203,13 @@
     font-family: 'Noto Sans TC', sans-serif;
     color: rgba(236, 94, 12, 0.836);
     font-weight: bolder;
+}
+
+.topicHighLight {
+    font-size: 16px;
+    font-family: 'Noto Sans TC', sans-serif;
+    color: rgb(206, 100, 100);
+    font-weight: bold;
 }
 
 .infoCard .topic {
@@ -282,6 +279,17 @@
     height: 20px;
     width: 20px;
     background-image: url("//s.pixfs.net/f.pixnet.net/images/emotions/054.gif");
+    margin-right: 7px;
+    background-size: 20px 20px;
+    vertical-align: middle;
+}
+
+.linkTag::before {
+    content: "";
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background-image: url("https://1.bp.blogspot.com/-LbQ5Dvvaq0g/Xdn9KrU2OFI/AAAAAAAAC5Y/O7RcPcUJycgwsA9BzkviHCHzYEKmHtOWQCLcBGAsYHQ/s1600/transparent-chain-icon-hyperlink-icon-internet-icon-5d6a3b40a51cc2.6259860915672430726763.png");
     margin-right: 7px;
     background-size: 20px 20px;
     vertical-align: middle;
