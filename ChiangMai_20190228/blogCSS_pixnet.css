@@ -86,6 +86,41 @@
     font-size: 16px;
 }
 
+.related {
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.related .topic {
+    font-family: 'Noto Sans TC', sans-serif;
+    color:white;
+    background-color: red;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+
+.related .topic::before {
+    content: "";
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background-image: url("//s.pixfs.net/f.pixnet.net/images/emotions/038.gif");
+    margin-right: 10px;
+    background-size: 20px 20px;
+    vertical-align: middle;
+}
+
+.related .topic::after{
+    content: "";
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background-image: url("//s.pixfs.net/f.pixnet.net/images/emotions/038.gif");
+    margin-left: 10px;
+    background-size: 20px 20px;
+    vertical-align: middle;
+}
+
 .secondTopic {
     color: rgb(7, 134, 28);
     font-family: 'Noto Sans TC', sans-serif;
@@ -287,6 +322,17 @@
     height: 20px;
     width: 20px;
     background-image: url("https://1.bp.blogspot.com/-LbQ5Dvvaq0g/Xdn9KrU2OFI/AAAAAAAAC5Y/O7RcPcUJycgwsA9BzkviHCHzYEKmHtOWQCLcBGAsYHQ/s1600/transparent-chain-icon-hyperlink-icon-internet-icon-5d6a3b40a51cc2.6259860915672430726763.png");
+    margin-right: 7px;
+    background-size: 20px 20px;
+    vertical-align: middle;
+}
+
+.hotTag::before {
+    content: "";
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background-image: url("//s.pixfs.net/f.pixnet.net/images/emotions/056.gif");
     margin-right: 7px;
     background-size: 20px 20px;
     vertical-align: middle;
