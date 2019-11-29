@@ -349,6 +349,12 @@
     vertical-align: middle;
 }
 
+.map {
+height: 300px;
+width: 300px;
+border: solid rgb(211, 226, 73);
+}
+
 .personal {
     width: 100%;
     margin:0px auto;

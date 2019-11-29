@@ -86,6 +86,41 @@
     font-size: 16px;
 }
 
+.related {
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.related .topic {
+    font-family: 'Noto Sans TC', sans-serif;
+    color:white;
+    background-color: red;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+
+.related .topic::before {
+    content: "";
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background-image: url("//s.pixfs.net/f.pixnet.net/images/emotions/038.gif");
+    margin-right: 10px;
+    background-size: 20px 20px;
+    vertical-align: middle;
+}
+
+.related .topic::after{
+    content: "";
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background-image: url("//s.pixfs.net/f.pixnet.net/images/emotions/038.gif");
+    margin-left: 10px;
+    background-size: 20px 20px;
+    vertical-align: middle;
+}
+
 .secondTopic {
     color: rgb(7, 134, 28);
     font-family: 'Noto Sans TC', sans-serif;
@@ -292,6 +327,17 @@
     vertical-align: middle;
 }
 
+.hotTag::before {
+    content: "";
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background-image: url("//s.pixfs.net/f.pixnet.net/images/emotions/056.gif");
+    margin-right: 7px;
+    background-size: 20px 20px;
+    vertical-align: middle;
+}
+
 .price::before {
     content: "";
     display: inline-block;
@@ -301,6 +347,12 @@
     margin-right: 7px;
     background-size: 20px 20px;
     vertical-align: middle;
+}
+
+.map {
+height: 300px;
+width: 300px;
+border: solid rgb(211, 226, 73);
 }
 
 .personal {
