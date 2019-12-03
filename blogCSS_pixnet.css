@@ -265,7 +265,6 @@
     font-size: 14px;
     font-family: 'Noto Sans TC', sans-serif;
     color: rgb(89, 93, 84);
-    line-height: 3px;
 }
 
 .infoCard .list p a {
@@ -273,7 +272,7 @@
     font-size: 14px;
     font-family: 'Noto Sans TC', sans-serif;
     color: blueviolet;
-    line-height: 3px;
+
 }
 
 .infoCard .list p a:hover {
